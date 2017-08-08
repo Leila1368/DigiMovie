@@ -27,20 +27,20 @@
                 
                 
                 @Html.ActionLink("TakFilm", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                <a href="@Url.Action("TakFilm", "Index", "Home")"><span align="bottom" class="glyphicon glyphicon-film "></span></a>
+                <a href="@Url.Action("TakFilm")"><span align="bottom" class="glyphicon glyphicon-film ">TakFilm</span></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
 
 
-                    <li><a href="@Url.Action(" تماس با ما", "Contact", "Home")"><span class="glyphicon glyphicon-phone-alt"></span></a>
-                    <li>@Html.ActionLink("تماس با ما", "Contact", "Home")</li>
-                    <li><a href="@Url.Action(" درباره ما", "About", "Home")"><span class="glyphicon glyphicon-user"></span></a>
-                    <li>@Html.ActionLink("درباره ما", "About", "Home")</li>
-                    <li><a href="@Url.Action(" گالری", "Gallery", "Home")"><span class="glyphicon glyphicon-picture"></span></a>
-                    <li>@Html.ActionLink("گالری", "Gallery", "Home")</li>
-                    <li><a href="@Url.Action("صفحه اصلی", "Index", "Home")"><span class="glyphicon glyphicon-home"></span></a>
-                    <li>@Html.ActionLink("صفحه اصلی", "Index", "Home")</li>
+                    <li><a href="@Url.Action("Contact")"><span class="glyphicon glyphicon-phone-alt">تماس باما</span></a>
+                    
+                    <li><a href="@Url.Action("About")"><span class="glyphicon glyphicon-user">درباره ما </span></a>
+                   
+                    <li><a href="@Url.Action("Gallery")"><span class="glyphicon glyphicon-picture">گالری </span></a>
+                    
+                    <li><a href="@Url.Action("Index")"><span class="glyphicon glyphicon-home"> صفحه اصلی</span></a>
+                    
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
