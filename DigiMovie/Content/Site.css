@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    border-radius:30px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -89,8 +90,8 @@ input[type=submit] {
     background-color:darkcyan;
     padding: 20px;
 }
- navbar-header a{
-    font-family:'B Nazanin';
-    font-size:20px;
-}
-
+.logo{
+     border-radius:20px;
+     width:30px;
+     height:20px;  
+ }

@@ -19,16 +19,21 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header navbar-right">
+                
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="@Url.Action("TakFilm")"><span class="glyphicon glyphicon-film "> تک فیلم</span></a>
 
-                @*@Html.ActionLink("TakFilm", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+               
+
+
+                <img src="~/Library/Picture/Movie.ico" />  @*<img src="../Library/Picture/film.ico.ico" />*@
+              
+                @Html.ActionLink("TakFilm", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @*<a href="@Url.Action("TakFilm")"><span class="glyphicon glyphicon-film "> تک فیلم</span></a>*@
             </div>
-           
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
 

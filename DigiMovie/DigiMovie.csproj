@@ -211,7 +211,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Library\Picture\21RoozBad-Slider.jpg" />
     <Content Include="Library\Picture\Asheghaneh-Part-17.jpg" />
+    <Content Include="Library\Picture\film.ico.ico" />
+    <Content Include="Library\Picture\film.png" />
     <Content Include="Library\Picture\Kharegi.jpg" />
+    <Content Include="Library\Picture\Movie.ico" />
+    <Content Include="Library\Picture\movie.png" />
     <Content Include="Library\Picture\oxidan.jpg" />
     <Content Include="Library\Picture\Rag.jpg" />
     <Content Include="Library\Picture\RageKhab.jpg" />
