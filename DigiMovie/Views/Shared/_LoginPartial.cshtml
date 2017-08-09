@@ -16,9 +16,9 @@
 else
 {
     <ul class="nav navbar-nav navbar-left">
-        <li><a href="@Url.Action("ثبت نام", "Register", "Account")"><span class="glyphicon glyphicon-user"></span></a>
-        <li>@Html.ActionLink("ثبت نام", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-        <li><a href="@Url.Action("ورود", "Login", "Account")"><span class="glyphicon glyphicon-log-in"></span></a>
-        <li>@Html.ActionLink("ورود", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li><a href="@Url.Action("Register")"><span class="glyphicon glyphicon-user">ثبت نام </span></a>
+        @*<li>@Html.ActionLink("ثبت نام", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        <li><a href="@Url.Action("Login")"><span class="glyphicon glyphicon-log-in">ورود </span></a>
+        @*<li>@Html.ActionLink("ورود", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>*@
     </ul>
 }

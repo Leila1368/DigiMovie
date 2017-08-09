@@ -8,7 +8,7 @@ namespace DigiMovie.Controllers
 {
     public class HomeController : Controller
     {
-      // [Route("Index")]
+       //[Route("Index")]
         public ActionResult Index()
         {
             return View();
